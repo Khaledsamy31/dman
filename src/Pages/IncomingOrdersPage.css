@@ -1,0 +1,116 @@
+/* IncomingOrdersPage.css */
+
+/* الحاوية الرئيسية للطلبات */
+.orders-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+/* رأس الصفحة */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* حالة النشاط */
+.status-toggle {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.status-toggle button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+.status-toggle .online {
+  background-color: #28a745; /* لون أخضر للمتصل */
+}
+
+.status-toggle .offline {
+  background-color: #dc3545; /* لون أحمر لغير المتصل */
+}
+
+/* ملف تعريف المستخدم */
+.user-profile h2 {
+  margin: 0;
+  color: #000000;
+text-align: center;
+}
+
+/* زر تسجيل الخروج */
+.logout-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* عنوان الطلبات */
+h1 {
+  margin-bottom: 20px;
+  color: #058f10;
+  text-align: center;
+}
+
+/* بطاقة الطلب */
+.order-card {
+  background-color: #ffffff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.order-card h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.order-card p {
+  margin: 5px 0;
+  color: #666;
+}
+
+/* أزرار الإجراءات داخل بطاقة الطلب */
+.order-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.order-actions button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.order-actions button.delivered-button {
+  background-color: #28a745;
+}
+
+.order-actions button.cancel-button {
+  background-color: #dc3545;
+}
+
+.order-actions button:hover {
+  opacity: 0.8;
+}

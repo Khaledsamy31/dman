@@ -1,0 +1,88 @@
+/* src/pages/AcceptedOrdersPage.css */
+.accepted-orders-container {
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.accepted-orders-container h1 {
+  margin-bottom: 20px;
+}
+
+.accepted-order-card {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  position: relative;
+}
+
+.accepted-order-card h2 {
+  margin: 0;
+}
+
+.accepted-order-card p {
+  margin: 5px 0;
+}
+
+.accepted-order-card .button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.accepted-order-card .button {
+  display: inline-block;
+  margin-top: 5px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.accepted-order-card .button:hover {
+  background-color: #0056b3;
+}
+
+.accepted-order-card .button.disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.accepted-order-card .button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.accepted-order-card .delivery-button {
+  background-color: #28a745;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  margin-left: auto;
+}
+
+.accepted-order-card .delivery-button:hover {
+  background-color: #218838;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.accepted-order-card .delivery-button.disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.accepted-order-card .delivery-button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}

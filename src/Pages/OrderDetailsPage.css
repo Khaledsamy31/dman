@@ -1,0 +1,57 @@
+.order-details-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.order-title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.order-section {
+  margin-bottom: 20px;
+}
+
+.section-title {
+  color: #555;
+  font-size: 20px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.order-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.order-table th, .order-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.order-table th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.total-price {
+  text-align: right;
+  font-size: 22px;
+  color: #e74c3c;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.order-summary {
+  border-top: 2px solid #ddd;
+  padding-top: 10px;
+}
